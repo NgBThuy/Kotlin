@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:text="Login!"
+            android:textSize="60sp"
+            android:padding="40dp"
+            android:layout_marginBottom="-25dp"
+            android:textColor="#FFFFFF"
+            android:background="#3366FF"/>
+
+    <TextView
+            android:text="and you can discover best news around the world"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="#FFFFFF"
+            android:background="#3366FF"
+            android:layout_marginBottom="60dp"
+            android:id="@+id/textView"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:id="@+id/editText"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password(optional)"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"/>
+    <CheckBox
+            android:text="Remember me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp"
+            android:layout_marginBottom="-30dp"
+            android:id="@+id/checkBox"/>
+
+    <Button
+            android:text="LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/ic_button"
+            android:id="@+id/button"/>
+
+</LinearLayout>

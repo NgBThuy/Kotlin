@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollingActivity">
+    <android.support.design.widget.CoordinatorLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            tools:context=".ScrollingActivity">
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          xmlns:tools="http://schemas.android.com/tools"
+                          android:background="#ffffff"
+                          android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="40dp"
+                        android:text="Our Team"
+                        android:textSize="25dp"
+                        android:gravity="center"/>
+                <ImageView
+                        android:layout_width="350dp"
+                        android:layout_height="216dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/team"
+                        android:scaleType="fitXY"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="275dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          xmlns:tools="http://schemas.android.com/tools"
+                          android:background="#ffffff"
+                          android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="55dp"
+                        android:text="Mission"
+                        android:textSize="25dp"
+                        android:layout_marginBottom="-40dp"
+                        android:gravity="center"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="135dp"
+
+                        android:layout_margin="30dp"
+                        android:text="@string/large_text"
+                        android:textSize="12dp"
+                        android:layout_gravity="center"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="465dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:background="#ffffff"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="55dp"
+                        android:text="Address"
+                        android:textSize="25dp"
+                        android:gravity="center"/>
+                <ImageView
+                        android:layout_width="350dp"
+                        android:layout_height="350dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/address"
+                        android:scaleType="fitXY"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalTest3</string>
+    <string name="large_text">
+        "Nhom 13 \n\n"
+        "Nguyen Hien Minh Triet \n\n"
+        "Nguyen Bich Thuy\n\n"
+        "Nguyen Cong Thuan \n\n"
+        "Le Tien Dat \n\n"
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
