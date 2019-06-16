@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tuan5</string>
+    <string name="title_nowplaying">Now Playing</string>
+    <string name="title_toprate">Top Rate</string>
+</resources>
