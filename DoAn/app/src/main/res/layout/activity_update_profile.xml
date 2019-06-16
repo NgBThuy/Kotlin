@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:padding="50dp">
+
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_large" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Exchange Book"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/light_blue_500"
+            android:textStyle="bold" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Update Email and Phone number"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/light_blue_400" />
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_blue_500" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:inputType="text"
+            android:maxLength="50"
+            android:id="@+id/edtmail"
+            android:hint="Enter your Email"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/light_blue_400"
+            android:theme="@style/EditText.Blue"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_blue_500" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLength="50"
+            android:hint="Enter your Name"
+            android:id="@+id/edtname"
+            android:textColor="@color/light_blue_500"
+            android:theme="@style/EditText.Blue" />
+    <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_blue_400" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLength="50"
+            android:hint="Enter your Phone"
+            android:id="@+id/edtPhone"
+            android:textColor="@color/light_blue_500"
+            android:theme="@style/EditText.Blue" />
+
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_mxlarge" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:id="@+id/btnUpdate"
+            android:background="@drawable/btn"
+            android:text="U P D A T E"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_medium" />
+
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_xlarge" />
+
+
+</LinearLayout>
